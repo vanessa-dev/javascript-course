@@ -1,5 +1,4 @@
 .vscode
-aula02-stubs/node_modules
-aula03-spies/node_modules
-aula-04-coverage-e2e/node_modules
 aula-04-coverage-e2e/.nyc_output
+*/node_modules
+
