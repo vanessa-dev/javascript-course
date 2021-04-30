@@ -1,0 +1,10 @@
+{
+    "id":"2ba3f3ae-0aec-44a3-89a4-b3d8fc0fb5db",
+    "name":"Wagon",
+    "carIds":[
+       "729d8d89-0772-472e-a406-ad3bb889b9fe",
+       "bf3e3cdf-3821-4cb8-8b3b-9141cf57264a",
+       "b8b51e07-a638-40ad-ace1-1807d2cbf62d"
+    ],
+    "price":"84.80"
+ }

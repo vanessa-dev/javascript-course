@@ -1,4 +1,4 @@
 .vscode
-aula-04-coverage-e2e/.nyc_output
+*/.nyc_output
 */node_modules
 
