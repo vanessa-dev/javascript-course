@@ -6,7 +6,7 @@ import database from './../database.json';
 import Person from './person.js';
 
 DraftLog(console).addLineListener(process.stdin);
-
+const DEAFAULT_LANG = "pt-BR";
 const options = {
     leftPad: 2,
     columns: [
@@ -18,7 +18,7 @@ const options = {
     ]
 };
 
-const table = chalkTable(options,database.map(item=> new Person(item).formatted()));
+const table = chalkTable(options,database.map(item=> new Person(item).formatted(DEAFAULT_LANG)));
 const print = console.draft(table);
 
 setInterval(()=>{
